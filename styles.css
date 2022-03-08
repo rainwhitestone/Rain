@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Sansita Swashed", cursive;
+}
+
+.top-container {
+  background-color: #f7ecde;
+  position: relative;
+  padding-top: 280px;
+}
+
+.middle-container {
+  background-color: #b4c6a6;
+}
+
+.bottom-container {
+  padding: 15px;
+  background-color: #3a6351;
+}
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 100px;
+  width: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 500px;
+  width: 250px;
+}
+
+.mountain {
+  width: 1000px;
+}
+.skill {
+  border-radius: 100%;
+}
+
+.mypfp {
+  border-radius: 100%;
+}
+
+.footer-link {
+  color: lightyellow;
+  padding: 2px;
+}
+
+.btn {
+  color: darkolivegreen;
+}
+
+.special {
+  color: lightyellow;
+}
+
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 33%;
+}
+
+hr:after {
+  background: #b4c6a6;
+  content: "§";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+  width: 33%;
+}
