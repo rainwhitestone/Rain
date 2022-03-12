@@ -5,9 +5,9 @@ body {
 }
 
 .top-container {
-  background-color: #f7ecde;
+  background-color: #f8f3ec;
   position: relative;
-  padding-top: 280px;
+  padding-top: 130px;
 }
 
 .middle-container {
@@ -18,16 +18,24 @@ body {
   padding: 15px;
   background-color: #3a6351;
 }
+
 h1 {
-  margin: 0 auto 0 auto;
+  line-height: 2;
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
 }
 
 h2 {
+  font-weight: normal;
+  color: darkslategrey;
+  font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
 }
 
 h3 {
+  color: darkslategrey;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -35,21 +43,29 @@ h3 {
   position: absolute;
   right: 500px;
   top: 100px;
-  width: 250px;
+  width: 200px;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 500px;
-  bottom: 500px;
-  width: 250px;
+  bottom: 400px;
+  width: 200px;
 }
 
 .mountain {
-  width: 1000px;
+  width: 840px;
 }
+
 .skill {
   border-radius: 100%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 1.5;
+  text-align: left;
 }
 
 .mypfp {
@@ -58,15 +74,48 @@ h3 {
 
 .footer-link {
   color: lightyellow;
-  padding: 2px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 
-.btn {
-  color: darkolivegreen;
+.footer-link:hover {
+  color: white;
 }
 
 .special {
   color: lightyellow;
+  font-family: "Montserrat", sans-serif;
+}
+
+.chillies-photo {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.computer-photo {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.btn {
+  background: #3a6351;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #477c65;
+  text-decoration: none;
 }
 
 hr {
@@ -75,8 +124,9 @@ hr {
   color: #333;
   overflow: visible;
   text-align: center;
+  margin: 50px auto 50px auto;
   height: 5px;
-  width: 33%;
+  width: 40%;
 }
 
 hr:after {
@@ -84,6 +134,7 @@ hr:after {
   content: "§";
   padding: 0 4px;
   position: relative;
+  margin: 50px auto 50px auto;
   top: -13px;
-  width: 33%;
+  width: 40%;
 }
